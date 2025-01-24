@@ -1,1 +1,1 @@
-# Deep-Learning-Projects
+# Diabetes prediction using Deep Neural Networks

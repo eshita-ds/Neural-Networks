@@ -1,1 +1,1 @@
-# Deep-Learning-Projects
+# Spider Classification using custom CNN models and GoogleNet
