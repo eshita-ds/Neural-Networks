@@ -1,5 +1,5 @@
 # Child Mind Institute: Problematic Internet Usage Detection
-![image](https://github.com/user-attachments/assets/af366133-1d36-463d-b85e-952103bce706)
+<img width=650 src="https://github.com/user-attachments/assets/f4c789c2-a714-4a57-92f7-6f07d18f719f">
 
 ## Introduction
 
@@ -7,7 +7,7 @@ Excessive internet use among children and adolescents poses significant public h
 
 Using the Healthy Brain Network (HBN) dataset of ~5000 participants aged 5-22, we aim to model the Severity Impairment Index (SII), which classifies PIU severity into four levels (none, mild, moderate, severe). By linking accelerometer-based physical activity metrics with SII scores, this project seeks to develop scalable predictive models for early intervention and healthier digital habits.
 
-<img width="531" alt="image" src="https://github.com/user-attachments/assets/13a5823c-3a2d-48fa-86e4-1d1a0404b9f2" />
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/7a793443-d1b0-4756-97f8-9ec6d59877e4" />
 
 ## Dataset Overview
 **Data Source** - [link](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/overview)
@@ -72,7 +72,8 @@ This project demonstrated the effectiveness of advanced models like TabNet, LSTM
 
 |Model Evaluation comparision|Kaggle Competition Ranking|
 |---|---|
-|<img width="417" alt="image" src="https://github.com/user-attachments/assets/9ddc12f1-1509-4e2a-93e9-254d46ceda3b" />|<img width="417" alt="image" src="https://github.com/user-attachments/assets/8c404cab-bfa0-4414-b39e-9eb1b1d94984" />| 
+|<img width="417" alt="image" src="https://github.com/user-attachments/assets/a4ab5b69-1317-4be8-a44a-4d544d7a328c" />|<img width="417" alt="image" src="https://github.com/user-attachments/assets/f8f2cabd-e4dd-4fbf-bd22-1bf5aec3f5bc" />| 
+
 
 ## Future Work:
 Future efforts could focus on advanced feature engineering, time-series preprocessing like frequency domain analysis, and hyperparameter tuning for better model performance. Exploring transfer learning, integrating explainable AI, and addressing hardware-specific issues will further enhance scalability and robustness.
