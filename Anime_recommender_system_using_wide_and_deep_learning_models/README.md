@@ -1,6 +1,7 @@
 # Anime recommender system using Wide and Deep learning models
 
-<p align=center><img src="https://github.com/user-attachments/assets/c48512f4-6c2b-419d-b38e-8751ee370d64" alt="Description of Image" width="800" height="250">
+<p align=center><img src="https://github.com/user-attachments/assets/a1b6ca74-65af-4c09-a30a-99befbe3a3a6" alt="Description of Image" width="800" height="250">
+
 
 ## Introduction
 
@@ -77,7 +78,7 @@ The model effectively predicts user-specific scores for unrated anime, providing
 - Top 5 anime recommendations for user ID `366396` based on predicted ratings:
   - **Predicted Scores**: All above 9.0, showcasing high personalization accuracy.
     
-    <img width="703" alt="image" src="https://github.com/user-attachments/assets/2e86240f-dd23-438b-ba79-fef00c6a1146" />
+    <img width="684" alt="image" src="https://github.com/user-attachments/assets/77606eb5-114a-4fba-90ae-271fcbca4138" />
 
 ## Conclusion
 The Wide and Deep Learning-based recommender system effectively combines categorical and continuous features to provide personalized anime recommendations. The system accurately predicts user-specific scores for unrated anime. It also demonstrates scalability and generalization with minimal validation loss and low RMSE.
