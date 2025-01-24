@@ -1,6 +1,6 @@
 <h1 align=center>Text Toxicity classification using LSTM and BILSTM</h1>
 
-<p align=center><img width="600" alt="image" src="https://github.com/user-attachments/assets/3ef12113-edd0-48b6-85a7-9583613c527d" /></p>
+<p align=center><img width="600" alt="image" src="https://github.com/user-attachments/assets/235b62b6-7d08-4aee-a33a-da085728eb44" /></p>
 
 
 ## Introduction
@@ -53,7 +53,7 @@ The test dataset we have, has only the text on which our trained model has to cl
 
 For 72% of the test dataset, the accuracy was approx. 95.732, which is fairly good performance of our trained BiLSTM model. 
 
-<img width="947" alt="image" src="https://github.com/user-attachments/assets/91107a0a-65a5-495a-acf0-3f5d47b11572" />
+<img width="1201" alt="image" src="https://github.com/user-attachments/assets/c837af17-6585-40a6-85d6-5af856bc6de1" />
 
 
 Several parameters were tuned to enhance model performance:
@@ -61,9 +61,6 @@ Several parameters were tuned to enhance model performance:
 -  LSTM Units: Optimal number found to be 100 units.
 -  Dropout Rate: A dropout rate of 0.1 was found to balance regularization without significant loss of information.
 -  Batch Size and Epochs: Batch size of 256 and training for up to 10 epochs with early stopping based on validation loss improvements.
-
-|<img width="704" alt="image" src="https://github.com/user-attachments/assets/ec68d726-bedd-4c0c-b1b8-99019bfa63c4" />|<img width="704" alt="image" src="https://github.com/user-attachments/assets/e352c92c-7a31-4bbf-8664-2f1ce6050283" />|
-|---|---|
 
 The BiLSTM model with FastText embeddings proved to be effective for multi-label classification of toxic comments which captured both forward and backward contextual dependencies. Through extensive experimentation and parameter tuning, the model achieved satisfactory performance, demonstrating the importance of each architectural element and the impact of hyperparameter choices. Challenges such as overfitting and imbalanced data were addressed through dropout, early stopping, and careful data preprocessing, resulting in a robust model for toxic comment classification. 
 
