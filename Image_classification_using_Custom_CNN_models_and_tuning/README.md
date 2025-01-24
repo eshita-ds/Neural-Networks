@@ -16,7 +16,8 @@ The dataset contains images of different sports classes and is split into a trai
 
 **Sample Images**
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/68bd1b0b-8f06-48ca-87e8-672346c2ac47" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/3df1fc17-c69f-4253-85f4-5171c3fc9f62" />
+
 
 ## Requirements
 
@@ -33,9 +34,8 @@ We tried multiple configurations for CNN models with our pre-processed dataset a
 Comparing the metrics for all models. We see that the best performing models are Setup 5, Setup 8 and Setup 9. We see the Setup 9 shows the best metrics with lowest loss and lowest training time. However, we see the model significantly overfits which will degrade the model’s performance on Unseen Data. Another model with good performance is Setup 8 which is again having high accuracy. However, it’s also significantly overfitting which can cause degradation of performance.
 The most balanced model is Setup 5, which shows a consistent trend for decreasing losses for both training and validation. Overall Accuracy is high; however, the losses might be a bit higher as compared the other models. However, since it does not overfit, it generalizes well between training and unseen data.
 
-<img width="1108" alt="image" src="https://github.com/user-attachments/assets/1dc1e643-c97d-44f0-a6d5-871938e76238" />
 
-|<img width="615" alt="image" src="https://github.com/user-attachments/assets/79546a5c-1f38-492a-bd4e-8a4bfa66c2f4" />|<img width="613" alt="image" src="https://github.com/user-attachments/assets/65f6f9d1-f6c4-404c-aed7-c00964174028" />|
+|<img width="1126" alt="image" src="https://github.com/user-attachments/assets/ddf6f321-681e-47b6-8bc5-507a1d987457" />|<img width="350" alt="image" src="https://github.com/user-attachments/assets/13a3855e-711a-4ab2-84fb-2287df682d9c" />|
 |---|---|
 
 ## License
